@@ -1,0 +1,25 @@
+body{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: monospace;
+    transition: all 500ms;
+    display: inline;
+    border-radius: 70px;
+    padding: 10px 20px;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
